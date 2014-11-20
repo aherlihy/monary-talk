@@ -58,6 +58,8 @@ def draw_hoods(boroughs, dataset):
         myplot.relim()
         myplot.autoscale_view()
 
+    pyplot.xlabel("longitude")
+    pyplot.ylabel("latitude")
     filename = ''.join(str(b) for b in boroughs)
     pyplot.savefig(filename + dataset + '.png', bbox_inches='tight', dpi=100)
 
@@ -80,7 +82,6 @@ def plot_timeVfreq(date_operator, DB):
 
     pyplot.xlabel(date_operator)
     pyplot.ylabel("# of rides")
-    pyplot.show()
     pyplot.savefig(q + "_" + DB[0], dpi=180)
 
 
@@ -92,15 +93,18 @@ def draw_hoods3D(boroughs, dataset):
     datafile = 'neighborhoods/nyc-pediacities-neighborhoods-v3-polygon.geojson'
     hoodlist = parse_neighborhood_file(datafile)
     manhattan = len(boroughs) == 1 and boroughs[0] == 1
-    nyc = len(boroughs) == 5
 
     fig = pyplot.figure(1, figsize=(7, 6))
     ax = fig.gca(projection='3d')
 
+    ax.set_zlabel("# of rides")
+    ax.set_xlabel("longitude")
+    ax.set_ylabel("latitude")
+
     if manhattan:
         ax.set_xlim3d(-74.07, -73.85)
         ax.set_ylim3d(40.65, 40.90)
-    elif nyc:
+    else:
         ax.set_xlim3d(-74.35, -73.6)
         ax.set_ylim3d(40.45, 40.95)
 
@@ -129,7 +133,6 @@ def draw_hoods3D(boroughs, dataset):
                                      fc=color, ec=tint, alpha=1.0, zorder=2)
                 ax.add_patch(patch)
                 art3d.pathpatch_2d_to_3d(patch, z=norm(count), zdir='z')
-                art3d.pathpatch_2d_to_3d(patch, z=0, zdir='z')
 
                 num_coords = len(c[0])
                 verts = []

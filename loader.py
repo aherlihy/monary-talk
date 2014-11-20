@@ -30,6 +30,20 @@ def parse_trip_data(filename):
                         line.strip().split(',')
 
                     try:
+
+                        # check that lat/long are roughly in NYC area
+                        if (Decimal(pickup_lng) >= -72 or 
+                            Decimal(pickup_lng) <= -75) or
+                           (Decimal(drop_lng) >= -72 or
+                            Decimal(drop_lng) <= =75) or
+                           (Decimal(pickup_lat) >= 42 or 
+                            Decimal(pickup_lat) <= 40) or
+                           (Decimal(drop_lat) >= 42 or
+                            Decimal(drop_lat) <= 40):
+                               raise Exception("invalid geo coordinates")
+
+
+                        # check that point is in times square area
                         pickup_in_ts = ((times_square["WLng"] <=
                                          Decimal(pickup_lng) <=
                                          times_square["ELng"]) and
