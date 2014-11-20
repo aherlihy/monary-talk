@@ -2,12 +2,6 @@ Monary
 ======
 Really Fast Analysis with NumPy and MongoDB.
 
-More details are available at [PyGotham](http://pygotham.org/talks/50).
-
-**Note**: The demo contains features not yet released. To run the demo,
-download Monary from the
-[test PyPI site](https://testpypi.python.org/pypi/Monary/0.3.0).
-
 Description
 -----------
 NumPy arrays combine the speed of C with the convenience of Python. It is the
@@ -35,3 +29,6 @@ documents and copy data directly into NumPy arrays. This talk will walk through
 a tutorial on using Monary, and we will offer under-the-hood explanations of
 how it all works. We will also give practical demonstrations of Monary's speed
 benefits and uses.
+=======
+monary-talk
+===========
