@@ -28,10 +28,9 @@ def draw_hoods(boroughs, dataset):
         myplot.set_xlim(-74.35, -73.6)
         myplot.set_ylim(40.45, 40.95)
 
-    hood_count, maxes, mins = load_precomputed_count(boroughs)
-    if mins[dataset] == 0:
-        mins[dataset] = 1
-    norm = colors.LogNorm(mins[dataset], maxes[dataset])
+    hood_count = load_precomputed_count(boroughs)
+    maxmin = load_precomputed_maxmin(boroughs)
+    norm = colors.LogNorm(maxmin["min"][dataset]["count"], maxmin["max"][dataset]["count"])
 
     for n in hoodlist.keys():
 
@@ -64,16 +63,26 @@ def draw_hoods(boroughs, dataset):
     pyplot.savefig(filename + dataset + '.png', bbox_inches='tight', dpi=100)
 
 
-def plot_timeVfreq(date_operator, DB):
-    tvf = get_timeVfreq(date_operator, DB[0], DB[1])
+def plot_timeVfreq(date_operator, collection):
+    if collection == "drop":
+         field = "pickup_time"
+    elif collection == "pickup":
+         field = "drop_time"
+    else:
+         raise Exception("Error: the collection arguments to timeVfreq are 'drop', or 'pickup'. Not", collection)
+    graph_size = {"hour":(0, 23), "dayOfYear":(1,366), "dayOfWeek":(1,8)}
+    if date_operator not in graph_size.keys():
+        raise Exception("Error: the date_operator argument to timeVfreq must be 'hour', 'dayOfWeek', or 'dayOfYear'. Not", date_operator)
+
+    tvf = get_timeVfreq(date_operator, collection, field)
 
     min_freq = ndarray.min(tvf[1])
     max_freq = ndarray.max(tvf[1])
 
-    fig = pyplot.figure(1, figsize=(20, 6))
+    fig = pyplot.figure(1, figsize=(7, 6))
     myplot = fig.add_subplot(111)
-    myplot.set_xlim(1, 366)
-    print "min=" + str(min_freq) + ", max=" + str(max_freq)
+    myplot.set_xlim(graph_size[date_operator])
+
     norm = colors.Normalize(min_freq, max_freq)
 
     for i in range(len(tvf[0])):
@@ -82,7 +91,7 @@ def plot_timeVfreq(date_operator, DB):
 
     pyplot.xlabel(date_operator)
     pyplot.ylabel("# of rides")
-    pyplot.savefig(q + "_" + DB[0], dpi=180)
+    pyplot.savefig(date_operator + "_" + collection, dpi=180)
 
 
 def draw_hoods3D(boroughs, dataset):
@@ -108,10 +117,10 @@ def draw_hoods3D(boroughs, dataset):
         ax.set_xlim3d(-74.35, -73.6)
         ax.set_ylim3d(40.45, 40.95)
 
-    hood_count, maxes, mins = load_precomputed_count(boroughs)
-    if mins[dataset] == 0:
-        mins[dataset] = 100
-    norm = colors.LogNorm(mins[dataset], maxes[dataset])
+    hood_count = load_precomputed_count(boroughs)
+    maxmin = load_precomputed_maxmin(boroughs)
+
+    norm = colors.LogNorm(maxmin["min"][dataset]["count"], maxmin["max"][dataset]["count"])
 
     for n in hoodlist.keys():
 
@@ -175,3 +184,5 @@ def draw_hoods3D(boroughs, dataset):
 
     filename = ''.join(str(b) for b in boroughs)
     pyplot.savefig(filename + dataset + '.png', bbox_inches='tight', dpi=100)
+
+plot_timeVfreq("hour", "drop")

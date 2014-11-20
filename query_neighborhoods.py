@@ -48,7 +48,9 @@ def count_borough(hoodlist, borough_code):
                     str(num_drops) + ', ' + str(num_pickups)
 
 
+# expects time operator as metric
 def get_timeVfreq(metric, collection, field):
+
     metric_query = "$" + metric
     id_field = "_id." + metric
     field_query = "$" + field
@@ -61,8 +63,3 @@ def get_timeVfreq(metric, collection, field):
         drop_array = m.aggregate("taxi", collection, agg_pipe,
                                  [id_field, "count"], ["int32", "int32"])
     return drop_array
-
-
-if __name__ == '__main__':
-    data_fle = 'neighborhoods/nyc-pediacities-neighborhoods-v3-polygon.geojson'
-    hoods = parse_neighborhood_file(data_fle)

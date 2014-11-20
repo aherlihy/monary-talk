@@ -3,11 +3,10 @@ import sys
 
 import json
 
-data = []
-
 
 def parse_neighborhood_file(hoodfile):
     with open(hoodfile) as f:
+        # special case for multipolygon hoods bc descartes
         multi_polygons = {
             "Bayswater": ("Queens", 4),
             "Broad Channel": ("Queens", 4),
@@ -64,26 +63,15 @@ def pretty_print(datas):
             datas[n]["borough"] + " : " + n
         print "\t" + str(datas[n]["location"])
 
-
-def loc_query(field, nbhd):
-    return {field: {"$geoWithin": {
-        "$geometry": nbhd["location"]
-    }}}
-
-
-def load_precomputed_count(boroughs):
-    hoods = {}
-
+def load_precomputed_maxmin(boroughs):
     max_d, min_d, max_p, min_p = -1, -1, -1, -1
     max_d_name, min_d_name, max_p_name, min_p_name = "", "", "", ""
-
     with open('neighborhoods/monary_count.csv') as f:
         for line in f:
             (c, x, y, z) = line.strip().split(", ")
 
             if int(c) not in boroughs:
                 continue
-
             if max_d < int(y) or max_d < 0:
                 max_d = int(y)
                 max_d_name = x
@@ -108,6 +96,27 @@ def load_precomputed_count(boroughs):
             elif min_p == int(z):
                 min_p_name += ", "
                 min_p_name += x
+    if min_d == 0:
+        min_d = 1
+    if min_p == 0:
+        min_p = 1
+
+    return {"max" : {"drops" : {"name": max_d_name, "count": max_d},
+                     "pickups" : {"name": max_p_name, "count": max_p}},
+            "min" : {"drops" : {"name": min_d_name, "count": min_d},
+                     "pickups" : {"name": min_p_name, "count": min_p}}}
+
+
+
+def load_precomputed_count(boroughs):
+    hoods = {}
+
+    with open('neighborhoods/monary_count.csv') as f:
+        for line in f:
+            (c, x, y, z) = line.strip().split(", ")
+
+            if int(c) not in boroughs:
+                continue
 
             # handle edge cases for duplicate names
             if str(x) == "Chelsea Staten Island":
@@ -116,17 +125,11 @@ def load_precomputed_count(boroughs):
                 x = "Bay Terrace, Staten Island"
 
             hoods[str(x)] = {"drops": int(y), "pickups": int(z)}
-    print "MAX DROP=" + str(max_d) + " @" + str(max_d_name)
-    print "MAX PICK=" + str(max_p) + " @" + str(max_p_name)
-    print "MIN DROP=" + str(min_d) + " @" + str(min_d_name)
-    print "MIN PICK=" + str(min_p) + " @" + str(min_p_name)
-    return (hoods, {"drops": max_d, "pickups": max_p},
-            {"drops": min_d, "pickups": min_p})
+    return hoods
 
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         sys.exit("Error: need to pass a neighborhoods geojson file")
     nfile = sys.argv[1]
-    # data = parse_neighborhood_file(nfile)
-    load_precomputed_count([5])
+    data = parse_neighborhood_file(nfile)
