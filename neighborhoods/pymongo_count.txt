@@ -1,0 +1,798 @@
+Ozone Park: 
+	 DROP : 25
+	 PICK : 538
+Greenpoint: 
+	 DROP : 959
+	 PICK : 8111
+Financial District: 
+	 DROP : 75547
+	 PICK : 89512
+Arlington: 
+	 DROP : 0
+	 PICK : 0
+Ferry Point Park: 
+	 DROP : 0
+	 PICK : 5
+Kensington: 
+	 DROP : 153
+	 PICK : 1460
+Douglaston: 
+	 DROP : 0
+	 PICK : 60
+Bull's Head: 
+	 DROP : 0
+	 PICK : 38
+Ridgewood: 
+	 DROP : 16
+	 PICK : 1275
+Chelsea, Staten Island: 
+	 DROP : 0
+	 PICK : 13
+Concourse: 
+	 DROP : 103
+	 PICK : 1686
+Oakwood: 
+	 DROP : 0
+	 PICK : 15
+South Ozone Park: 
+	 DROP : 1071
+	 PICK : 1456
+Port Richmond: 
+	 DROP : 2
+	 PICK : 16
+Cobble Hill: 
+	 DROP : 1414
+	 PICK : 1756
+Inwood: 
+	 DROP : 131
+	 PICK : 5708
+Bay Terrace: 
+	 DROP : 0
+	 PICK : 133
+Allerton: 
+	 DROP : 3
+	 PICK : 471
+Rossville: 
+	 DROP : 0
+	 PICK : 10
+West Farms: 
+	 DROP : 1
+	 PICK : 251
+Holliswood: 
+	 DROP : 0
+	 PICK : 77
+Breezy Point: 
+	 DROP : 0
+	 PICK : 18
+Prospect-Lefferts Gardens: 
+	 DROP : 80
+	 PICK : 1610
+Rockaway Beach: 
+	 DROP : 1
+	 PICK : 32
+Gramercy: 
+	 DROP : 78762
+	 PICK : 63601
+Chelsea: 
+	 DROP : 530465
+	 PICK : 472578
+Stapleton: 
+	 DROP : 0
+	 PICK : 17
+Fort Wadsworth: 
+	 DROP : 0
+	 PICK : 1
+Astoria: 
+	 DROP : 4568
+	 PICK : 23004
+Todt Hill: 
+	 DROP : 0
+	 PICK : 24
+Clinton Hill: 
+	 DROP : 358
+	 PICK : 4123
+Gravesend: 
+	 DROP : 21
+	 PICK : 1035
+University Heights: 
+	 DROP : 2
+	 PICK : 585
+West Village: 
+	 DROP : 148140
+	 PICK : 125356
+Port Morris: 
+	 DROP : 84
+	 PICK : 466
+Great Kills: 
+	 DROP : 0
+	 PICK : 6
+Wakefield: 
+	 DROP : 3
+	 PICK : 433
+Westchester Square: 
+	 DROP : 7
+	 PICK : 220
+Chinatown: 
+	 DROP : 15080
+	 PICK : 17241
+Neponsit: 
+	 DROP : 0
+	 PICK : 4
+Corona: 
+	 DROP : 195
+	 PICK : 1640
+Mount Eden: 
+	 DROP : 11
+	 PICK : 613
+East Elmhurst: 
+	 DROP : 2809
+	 PICK : 7032
+Downtown Brooklyn: 
+	 DROP : 4225
+	 PICK : 6385
+Cambria Heights: 
+	 DROP : 10
+	 PICK : 82
+Upper West Side: 
+	 DROP : 248097
+	 PICK : 296623
+Harlem: 
+	 DROP : 10064
+	 PICK : 48208
+Bay Ridge: 
+	 DROP : 17
+	 PICK : 2329
+Cunningham Park: 
+	 DROP : 0
+	 PICK : 8
+Williamsburg: 
+	 DROP : 6661
+	 PICK : 21605
+Two Bridges: 
+	 DROP : 846
+	 PICK : 1522
+Jamaica: 
+	 DROP : 1265
+	 PICK : 1379
+Prince's Bay: 
+	 DROP : 0
+	 PICK : 8
+Huguenot: 
+	 DROP : 0
+	 PICK : 5
+Howard Beach: 
+	 DROP : 3
+	 PICK : 211
+Highbridge: 
+	 DROP : 19
+	 PICK : 843
+Brooklyn Heights: 
+	 DROP : 3615
+	 PICK : 5627
+Belmont: 
+	 DROP : 5
+	 PICK : 695
+Bloomfield: 
+	 DROP : 0
+	 PICK : 1
+New Dorp Beach: 
+	 DROP : 0
+	 PICK : 11
+Long Island City: 
+	 DROP : 7303
+	 PICK : 20355
+Edenwald: 
+	 DROP : 0
+	 PICK : 133
+East Village: 
+	 DROP : 112712
+	 PICK : 98230
+Hoffman Island: 
+	 DROP : 0
+	 PICK : 0
+Hunts Point: 
+	 DROP : 3
+	 PICK : 253
+Plum Beach: 
+	 DROP : 0
+	 PICK : 3
+Schuylerville: 
+	 DROP : 0
+	 PICK : 214
+North Riverdale: 
+	 DROP : 2
+	 PICK : 543
+Lower East Side: 
+	 DROP : 35474
+	 PICK : 37469
+NoHo: 
+	 DROP : 25087
+	 PICK : 17898
+Bayside: 
+	 DROP : 3
+	 PICK : 540
+Baychester: 
+	 DROP : 3
+	 PICK : 132
+Pelham Bay: 
+	 DROP : 2
+	 PICK : 257
+Upper East Side: 
+	 DROP : 382173
+	 PICK : 380952
+Mariners Harbor: 
+	 DROP : 1
+	 PICK : 20
+Fort Greene: 
+	 DROP : 2029
+	 PICK : 3968
+Richmondtown: 
+	 DROP : 0
+	 PICK : 11
+Woodlawn: 
+	 DROP : 0
+	 PICK : 392
+Williamsbridge: 
+	 DROP : 1
+	 PICK : 304
+East New York: 
+	 DROP : 9
+	 PICK : 979
+New Brighton: 
+	 DROP : 0
+	 PICK : 5
+Central Park: 
+	 DROP : 66210
+	 PICK : 78337
+Melrose: 
+	 DROP : 12
+	 PICK : 603
+Rockaway Park: 
+	 DROP : 0
+	 PICK : 48
+Unionport: 
+	 DROP : 8
+	 PICK : 455
+Castle Hill: 
+	 DROP : 1
+	 PICK : 164
+Bronxdale: 
+	 DROP : 2
+	 PICK : 272
+Country Club: 
+	 DROP : 0
+	 PICK : 76
+Greenwich Village: 
+	 DROP : 91211
+	 PICK : 68837
+Forest Hills: 
+	 DROP : 262
+	 PICK : 4414
+Castleton Corners: 
+	 DROP : 0
+	 PICK : 29
+College Point: 
+	 DROP : 12
+	 PICK : 364
+Tribeca: 
+	 DROP : 64391
+	 PICK : 56764
+Arden Heights: 
+	 DROP : 0
+	 PICK : 12
+Westerleigh: 
+	 DROP : 0
+	 PICK : 23
+Middle Village: 
+	 DROP : 6
+	 PICK : 922
+Woodrow: 
+	 DROP : 1
+	 PICK : 22
+Dongan Hills: 
+	 DROP : 0
+	 PICK : 56
+Kingsbridge: 
+	 DROP : 16
+	 PICK : 2057
+Governors Island: 
+	 DROP : 1
+	 PICK : 1
+Hollis Hills: 
+	 DROP : 0
+	 PICK : 33
+Elmhurst: 
+	 DROP : 480
+	 PICK : 5059
+Floyd Bennett Field: 
+	 DROP : 2
+	 PICK : 12
+Randall Manor: 
+	 DROP : 1
+	 PICK : 19
+Bayswater: 
+	 DROP : 0
+	 PICK : 20
+Morris Heights: 
+	 DROP : 11
+	 PICK : 924
+Port Ivory: 
+	 DROP : 0
+	 PICK : 0
+Briarwood: 
+	 DROP : 171
+	 PICK : 598
+Freshkills Park: 
+	 DROP : 0
+	 PICK : 0
+Alley Pond Park: 
+	 DROP : 1
+	 PICK : 3
+Flatlands: 
+	 DROP : 6
+	 PICK : 651
+Rego Park: 
+	 DROP : 238
+	 PICK : 2525
+Rosebank: 
+	 DROP : 0
+	 PICK : 8
+Laurelton: 
+	 DROP : 0
+	 PICK : 53
+Silver Lake: 
+	 DROP : 0
+	 PICK : 13
+Boerum Hill: 
+	 DROP : 1221
+	 PICK : 2485
+Claremont Village: 
+	 DROP : 5
+	 PICK : 734
+Pleasant Plains: 
+	 DROP : 0
+	 PICK : 0
+Bergen Beach: 
+	 DROP : 1
+	 PICK : 84
+New Dorp: 
+	 DROP : 0
+	 PICK : 12
+Whitestone: 
+	 DROP : 3
+	 PICK : 440
+West Brighton: 
+	 DROP : 1
+	 PICK : 46
+Brownsville: 
+	 DROP : 12
+	 PICK : 707
+Spuyten Duyvil: 
+	 DROP : 1
+	 PICK : 643
+Bushwick: 
+	 DROP : 222
+	 PICK : 4874
+Eltingville: 
+	 DROP : 0
+	 PICK : 15
+Nolita: 
+	 DROP : 14435
+	 PICK : 12109
+Brighton Beach: 
+	 DROP : 10
+	 PICK : 529
+Red Hook: 
+	 DROP : 88
+	 PICK : 881
+City Island: 
+	 DROP : 1
+	 PICK : 33
+Midland Beach: 
+	 DROP : 0
+	 PICK : 14
+Battery Park City: 
+	 DROP : 42309
+	 PICK : 44423
+Prospect Park: 
+	 DROP : 88
+	 PICK : 639
+Borough Park: 
+	 DROP : 27
+	 PICK : 1038
+Jackson Heights: 
+	 DROP : 253
+	 PICK : 5029
+Ditmars Steinway: 
+	 DROP : 813
+	 PICK : 9229
+Arrochar: 
+	 DROP : 0
+	 PICK : 36
+Bronx Park: 
+	 DROP : 6
+	 PICK : 253
+Manhattan Beach: 
+	 DROP : 0
+	 PICK : 32
+Emerson Hill: 
+	 DROP : 0
+	 PICK : 41
+Edgemere: 
+	 DROP : 1
+	 PICK : 14
+Little Neck: 
+	 DROP : 2
+	 PICK : 65
+Gerritsen Beach: 
+	 DROP : 0
+	 PICK : 25
+Forest Park: 
+	 DROP : 3
+	 PICK : 105
+Coney Island: 
+	 DROP : 2
+	 PICK : 192
+Fieldston: 
+	 DROP : 2
+	 PICK : 517
+Columbia St: 
+	 DROP : 388
+	 PICK : 1156
+Morningside Heights: 
+	 DROP : 9712
+	 PICK : 17481
+Tottenville: 
+	 DROP : 0
+	 PICK : 7
+Clason Point: 
+	 DROP : 2
+	 PICK : 268
+Glendale: 
+	 DROP : 7
+	 PICK : 682
+Cypress Hills: 
+	 DROP : 10
+	 PICK : 398
+Tompkinsville: 
+	 DROP : 0
+	 PICK : 34
+Flushing: 
+	 DROP : 169
+	 PICK : 3682
+Hell's Kitchen: 
+	 DROP : 283407
+	 PICK : 373653
+Grymes Hill: 
+	 DROP : 0
+	 PICK : 14
+East Harlem: 
+	 DROP : 19471
+	 PICK : 41653
+Arverne: 
+	 DROP : 0
+	 PICK : 63
+Washington Heights: 
+	 DROP : 1947
+	 PICK : 22964
+Park Hill: 
+	 DROP : 0
+	 PICK : 17
+Mott Haven: 
+	 DROP : 107
+	 PICK : 2351
+Pelham Gardens: 
+	 DROP : 2
+	 PICK : 123
+Sea Gate: 
+	 DROP : 0
+	 PICK : 18
+South Brother Island: 
+	 DROP : 0
+	 PICK : 0
+Stuyvesant Town: 
+	 DROP : 16438
+	 PICK : 14812
+Carroll Gardens: 
+	 DROP : 2112
+	 PICK : 2882
+Marble Hill: 
+	 DROP : 3
+	 PICK : 229
+St. Albans: 
+	 DROP : 2
+	 PICK : 155
+Morrisania: 
+	 DROP : 8
+	 PICK : 450
+Flatbush: 
+	 DROP : 104
+	 PICK : 3233
+North Brother Island: 
+	 DROP : 0
+	 PICK : 0
+Mill Basin: 
+	 DROP : 0
+	 PICK : 85
+Pelham Bay Park: 
+	 DROP : 0
+	 PICK : 26
+Sunnyside: 
+	 DROP : 4322
+	 PICK : 9969
+Windsor Terrace: 
+	 DROP : 17
+	 PICK : 1068
+Richmond Hill: 
+	 DROP : 159
+	 PICK : 1056
+Springfield Gardens: 
+	 DROP : 124
+	 PICK : 508
+Glen Oaks: 
+	 DROP : 1
+	 PICK : 30
+Great Kills Park: 
+	 DROP : 0
+	 PICK : 0
+South Slope: 
+	 DROP : 176
+	 PICK : 2404
+Vinegar Hill: 
+	 DROP : 49
+	 PICK : 644
+Canarsie: 
+	 DROP : 2
+	 PICK : 471
+Shore Acres: 
+	 DROP : 0
+	 PICK : 24
+Randall's Island: 
+	 DROP : 92
+	 PICK : 302
+Norwood: 
+	 DROP : 3
+	 PICK : 838
+Lighthouse Hill: 
+	 DROP : 0
+	 PICK : 3
+Green-Wood Cemetery: 
+	 DROP : 1
+	 PICK : 33
+Theater District: 
+	 DROP : 121905
+	 PICK : 181867
+Midtown: 
+	 DROP : 1055572
+	 PICK : 1129284
+Charleston: 
+	 DROP : 1
+	 PICK : 2
+Roosevelt Island: 
+	 DROP : 215
+	 PICK : 2366
+Bensonhurst: 
+	 DROP : 7
+	 PICK : 917
+Bay Terrace, Staten Island: 
+	 DROP : 0
+	 PICK : 4
+Willowbrook: 
+	 DROP : 0
+	 PICK : 2
+LaGuardia Airport: 
+	 DROP : 142914
+	 PICK : 97189
+Civic Center: 
+	 DROP : 9206
+	 PICK : 7353
+Murray Hill: 
+	 DROP : 156565
+	 PICK : 141694
+Gowanus: 
+	 DROP : 256
+	 PICK : 2846
+Concord: 
+	 DROP : 1
+	 PICK : 70
+Tremont: 
+	 DROP : 2
+	 PICK : 407
+Midwood: 
+	 DROP : 15
+	 PICK : 1402
+Riverdale: 
+	 DROP : 7
+	 PICK : 957
+Van Nest: 
+	 DROP : 2
+	 PICK : 166
+Kew Gardens Hills: 
+	 DROP : 20
+	 PICK : 571
+Crotona Park: 
+	 DROP : 0
+	 PICK : 47
+Fresh Meadows: 
+	 DROP : 0
+	 PICK : 404
+New Springville: 
+	 DROP : 0
+	 PICK : 33
+St. George: 
+	 DROP : 2
+	 PICK : 30
+DUMBO: 
+	 DROP : 1146
+	 PICK : 1894
+Throgs Neck: 
+	 DROP : 1
+	 PICK : 349
+Jamaica Bay: 
+	 DROP : 0
+	 PICK : 0
+Jamaica Hills: 
+	 DROP : 8
+	 PICK : 211
+Broad Channel: 
+	 DROP : 0
+	 PICK : 15
+Flatiron District: 
+	 DROP : 86688
+	 PICK : 75834
+Bath Beach: 
+	 DROP : 3
+	 PICK : 397
+Parkchester: 
+	 DROP : 9
+	 PICK : 1389
+Sheepshead Bay: 
+	 DROP : 16
+	 PICK : 1296
+Olinville: 
+	 DROP : 0
+	 PICK : 156
+Navy Yard: 
+	 DROP : 21
+	 PICK : 139
+Pelham Islands: 
+	 DROP : 0
+	 PICK : 0
+Crown Heights: 
+	 DROP : 213
+	 PICK : 6478
+Floral Park: 
+	 DROP : 4
+	 PICK : 35
+Park Slope: 
+	 DROP : 1086
+	 PICK : 6811
+Mount Hope: 
+	 DROP : 2
+	 PICK : 554
+Liberty Island: 
+	 DROP : 0
+	 PICK : 0
+Bellerose: 
+	 DROP : 13
+	 PICK : 125
+SoHo: 
+	 DROP : 100523
+	 PICK : 90072
+Belle Harbor: 
+	 DROP : 1
+	 PICK : 16
+Bedford-Stuyvesant: 
+	 DROP : 453
+	 PICK : 9896
+Latourette Park: 
+	 DROP : 0
+	 PICK : 3
+Far Rockaway: 
+	 DROP : 1
+	 PICK : 48
+South Beach: 
+	 DROP : 0
+	 PICK : 32
+Concourse Village: 
+	 DROP : 23
+	 PICK : 1338
+Morris Park: 
+	 DROP : 1
+	 PICK : 321
+Jamaica Estates: 
+	 DROP : 8
+	 PICK : 524
+Flushing Meadows Corona Park: 
+	 DROP : 528
+	 PICK : 622
+Little Italy: 
+	 DROP : 12244
+	 PICK : 8256
+Fort Hamilton: 
+	 DROP : 6
+	 PICK : 1254
+Sunset Park: 
+	 DROP : 118
+	 PICK : 3297
+Soundview: 
+	 DROP : 0
+	 PICK : 775
+Woodside: 
+	 DROP : 1294
+	 PICK : 4767
+Maspeth: 
+	 DROP : 303
+	 PICK : 2977
+Prospect Heights: 
+	 DROP : 958
+	 PICK : 2308
+Hollis: 
+	 DROP : 0
+	 PICK : 140
+Queens Village: 
+	 DROP : 10
+	 PICK : 309
+Longwood: 
+	 DROP : 23
+	 PICK : 1559
+Kips Bay: 
+	 DROP : 89555
+	 PICK : 80095
+John F. Kennedy International Airport: 
+	 DROP : 79617
+	 PICK : 46371
+Dyker Heights: 
+	 DROP : 7
+	 PICK : 614
+East Morrisania: 
+	 DROP : 5
+	 PICK : 413
+East Flatbush: 
+	 DROP : 23
+	 PICK : 2072
+Woodhaven: 
+	 DROP : 12
+	 PICK : 600
+Van Cortlandt Park: 
+	 DROP : 1
+	 PICK : 126
+Rikers Island: 
+	 DROP : 1
+	 PICK : 3
+Fordham: 
+	 DROP : 10
+	 PICK : 1938
+Rosedale: 
+	 DROP : 5
+	 PICK : 101
+Eastchester: 
+	 DROP : 0
+	 PICK : 82
+Clifton: 
+	 DROP : 0
+	 PICK : 10
+Graniteville: 
+	 DROP : 0
+	 PICK : 20
+Grant City: 
+	 DROP : 0
+	 PICK : 7
+Co-op City: 
+	 DROP : 2
+	 PICK : 301
+Howland Hook: 
+	 DROP : 0
+	 PICK : 0
+Ellis Island: 
+	 DROP : 0
+	 PICK : 0
+Hart Island: 
+	 DROP : 0
+	 PICK : 0
+Marine Park: 
+	 DROP : 3
+	 PICK : 162
+Kew Gardens: 
+	 DROP : 65
+	 PICK : 666
