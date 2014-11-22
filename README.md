@@ -48,7 +48,3 @@ The answer is Monary, a library with a simple solution: take the MongoDB
 documents and copy data directly into NumPy arrays. This talk will walk through
 a tutorial on using Monary, and we will offer under-the-hood explanations of
 how it all works. We will also give practical demonstrations of Monary's speed
-benefits and uses.
-=======
-monary-talk
-===========
