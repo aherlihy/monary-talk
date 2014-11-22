@@ -2,6 +2,26 @@ Monary
 ======
 Really Fast Analysis with NumPy and MongoDB.
 
+
+Source
+-----------
+~NOTE~ Monary is under active development! There are many features that
+have yet to be merged with the main repo.
+
+The official soure of Monary can be found at:
+https://bitbucket.org/djcbeach/monary/wiki/Home
+
+The development repo where SSL, error handling, and multidimensional array
+support can be found at:
+https://bitbucket.org/aherlihy/monary
+
+Another development repo:
+https://bitbucket.org/machyne/monary
+
+Development documentation:
+http://cereal.rutgers.edu/~kds124/monary/
+
+
 Description
 -----------
 NumPy arrays combine the speed of C with the convenience of Python. It is the
